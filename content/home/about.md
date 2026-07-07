@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "About me"
+title: "Short Bio"
 image: "images/me.jpg"
 build:
   render: never

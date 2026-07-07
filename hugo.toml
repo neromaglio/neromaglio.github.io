@@ -20,12 +20,12 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   identifier = "about"
-  name = "About"
+  name = "Bio"
   url = "/#about"
   weight = 10
 
 [[menu.main]]
   identifier = "main-research"
-  name = "Research Highlights"
+  name = "Research"
   url = "/#main-research"
   weight = 25

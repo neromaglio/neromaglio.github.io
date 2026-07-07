@@ -1,12 +1,12 @@
 ---
 enable: true
 intro: "Hi, my name is"
-title: "Davide"
+title: "Davide Gadioli"
 subtitle: "I optimize scientific applications for HPC."
 image: "images/me.jpg"
 button:
   enable: true
-  name: "Download CV"
+  name: "Curriculum Vitæ et Studiorum"
   url: "files/cv.pdf"
 socialLinks:
   fontAwesomeIcons:
