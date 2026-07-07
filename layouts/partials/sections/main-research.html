@@ -1,6 +1,6 @@
-<section id="main-research" class="py-5">
-  <div class="container">
-    <h3 class="text-center">Research Highlights</h3>
+<section id="main-research" class="py-0 py-sm-5">
+  <div class="container bg-transparent">
+    <h3 class="text-center bg-transparent bg-transparent">Research Highlights</h3>
 
     <div class="row justify-content-center px-3 px-md-5">
       {{ range where .Site.RegularPages "Section" "main-research" }}
@@ -11,7 +11,7 @@
             <img class="card-img-top" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
           </div>
 
-          <div class="card-body bg-transparent p-3">
+          <div class="card-body bg-transparent p-3 py-5">
             <div class="pb-2 bg-transparent">
               {{ range .Params.badges }}
               <span class="badge badge-secondary">{{ . }}</span>

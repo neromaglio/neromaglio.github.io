@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="{{ $justifyCSS.RelPermalink }}" integrity="{{ $justifyCSS.Data.Integrity }}">
   {{ end }}
 
+  {{ with resources.Get "css/fix_research.css" }}
+    {{ $researchCSS := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $researchCSS.RelPermalink }}" integrity="{{ $researchCSS.Data.Integrity }}">
+  {{ end }}
+
   <title>
     {{- block "title" . }} {{- end }}
   </title>
