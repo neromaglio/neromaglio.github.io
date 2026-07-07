@@ -1,6 +1,6 @@
 baseURL = 'https://neromaglio.github.io'
 locale = 'en-us'
-title = 'Personal website'
+title = 'Davide Gadioli, PhD'
 theme = 'hugo-profile'
 
 # Multilingual configuration
@@ -16,6 +16,6 @@ defaultContentLanguageInSubdir = false
   animate = true
 
 [params.navbar]
-  brandName = "D. Gadioli, PhD"
+  brandName = "Davide Gadioli, PhD"
   disableSearch = true
 
