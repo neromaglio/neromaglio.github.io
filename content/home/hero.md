@@ -17,9 +17,5 @@ build:
   list: never
 ---
 
-I received my Ph.D. cum laude in Information Technology from Politecnico di Milano in 2019.
-My research began with dynamic application autotuning, focusing on performance–quality trade-offs and their application to real-world virtual screening.
-Over time, I shifted my focus to high-performance computing (HPC) application optimization and high-throughput virtual screening for extreme-scale drug discovery.
-Since 2018, I have been part of the team developing the structure-based virtual screening software behind the EXaSCale smArt pLatform Against paThogEns (EXSCALATE).
-In 2021, I contributed to the largest virtual screening campaign performed against 15 targets across 12 SARS-CoV-2 viral proteins.
-I am currently a Junior Assistant Professor at Politecnico di Milano.
+I am a Junior Assistant Professor at Politecnico di Milano, in the [Elvis research group](https://elvispolimi.github.io) within the [HEAP lab](https://heaplab.deib.polimi.it/).
+Passionate about improving computation efficiency.

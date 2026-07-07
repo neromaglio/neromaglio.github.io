@@ -19,6 +19,11 @@ defaultContentLanguageInSubdir = false
   brandName = "Davide Gadioli, PhD"
   disableSearch = true
 
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/#about"
+  weight = 10
 
 [[menu.main]]
   identifier = "main-research"
