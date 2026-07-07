@@ -16,7 +16,6 @@ defaultContentLanguageInSubdir = false
   animate = true
 
 [params.navbar]
-  brandName = "Davide Gadioli, PhD"
   disableSearch = true
 
 [[menu.main]]
