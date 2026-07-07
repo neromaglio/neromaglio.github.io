@@ -19,9 +19,3 @@ defaultContentLanguageInSubdir = false
   brandName = "D. Gadioli, PhD"
   disableSearch = true
 
-[params.hero]
-  enable = true
-  intro = "Hi, my name is"
-  title = "Davide."
-  subtitle = "I optimize scientific applications for HPC."
-  content = "A Junior Assistant Professor in Politecnico"
