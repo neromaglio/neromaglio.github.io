@@ -19,3 +19,9 @@ defaultContentLanguageInSubdir = false
   brandName = "Davide Gadioli, PhD"
   disableSearch = true
 
+
+[[menu.main]]
+  identifier = "main-research"
+  name = "Research Highlights"
+  url = "/#main-research"
+  weight = 25
