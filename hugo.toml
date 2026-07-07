@@ -1,0 +1,4 @@
+baseURL = 'https://neromaglio.github.io'
+locale = 'en-us'
+title = 'Personal website'
+theme = 'hugo-profile'
