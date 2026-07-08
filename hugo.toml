@@ -18,6 +18,9 @@ defaultContentLanguageInSubdir = false
 [params.navbar]
   disableSearch = true
 
+[params.theme]
+  disableThemeToggle = true
+
 [[menu.main]]
   identifier = "about"
   name = "Bio"
