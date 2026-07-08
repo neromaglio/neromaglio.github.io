@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="{{ $awardsCSS.RelPermalink }}" integrity="{{ $awardsCSS.Data.Integrity }}">
   {{ end }}
 
+  {{ with resources.Get "css/projects.css" }}
+    {{ $projectCSS := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $projectCSS.RelPermalink }}" integrity="{{ $projectCSS.Data.Integrity }}">
+  {{ end }}
+
   <title>
     {{- block "title" . }} {{- end }}
   </title>
