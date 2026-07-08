@@ -18,6 +18,10 @@ defaultContentLanguageInSubdir = false
 [params.navbar]
   disableSearch = true
 
+[params.navbar.stickyNavBar]
+  enable = true
+  showOnScrollUp = true
+
 [params.theme]
   disableThemeToggle = true
 
