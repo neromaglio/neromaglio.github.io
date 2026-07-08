@@ -1,0 +1,54 @@
+{{ with site.GetPage "/home/contact" }}
+{{ if .Params.enable }}
+<section id="contact" class="contact-section py-0 py-sm-5">
+  <div class="container bg-transparent">
+    <h3 class="text-center bg-transparent">{{ .Params.title | default "Contact" }}</h3>
+
+    <div class="row justify-content-center px-3 px-md-5 py-5">
+  <div class="col-12">
+    <div class="contact-card contact-card-wide">
+
+      <div class="row align-items-stretch">
+        <div class="col-lg-4 col-md-12 contact-details">
+          <h5>Contact details</h5>
+
+          {{ if .Params.email }}
+          <p><strong>Email:</strong><br>
+            <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+          </p>
+          {{ end }}
+
+          {{ if .Params.office }}
+          <p><strong>Office:</strong><br>{{ .Params.office }}</p>
+          {{ end }}
+
+          {{ if .Params.phone_number }}
+          <p><strong>Phone number:</strong> {{ .Params.phone_number }}<br>
+            <span class="contact-muted">
+              (from mobile  +39 02 2399 {{ .Params.phone_number }})
+            </span>
+          </p>
+          {{ end }}
+
+          {{ if .Params.address }}
+          <p><strong>Address:</strong><br>{{ .Params.address }}</p>
+          {{ end }}
+        </div>
+
+        <div class="col-lg-8 col-mx-12">
+          <div class="contact-map">
+            <iframe
+              src="https://www.openstreetmap.org/export/embed.html?bbox=9.226850%2C45.475997%2C9.236850%2C45.481997&layer=mapnik&marker={{ .Params.lat }}%2C{{ .Params.lng }}"
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

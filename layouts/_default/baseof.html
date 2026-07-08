@@ -32,6 +32,11 @@
     <link rel="stylesheet" href="{{ $projectCSS.RelPermalink }}" integrity="{{ $projectCSS.Data.Integrity }}">
   {{ end }}
 
+  {{ with resources.Get "css/contact.css" }}
+    {{ $contactCSS := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $contactCSS.RelPermalink }}" integrity="{{ $contactCSS.Data.Integrity }}">
+  {{ end }}
+
   <title>
     {{- block "title" . }} {{- end }}
   </title>
