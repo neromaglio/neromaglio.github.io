@@ -7,9 +7,7 @@ It uses dev ops to automatically build the server and deploy the new website whe
 
 ## Code structure
 
-This is the structure of the folder if you ever need to update it later
-
-## Project structure
+This is the structure of the folder if I ever need to update it later
 
 ```text
 .
