@@ -1,4 +1,4 @@
-baseURL = 'https://neromaglio.github.io'
+baseURL = 'https://gadioli.faculty.polimi.it/'
 locale = 'en-us'
 title = 'Davide Gadioli, PhD'
 theme = 'hugo-profile'
