@@ -1,0 +1,44 @@
+:root {
+    --background-color: #f8f4ea;
+    --paper-color: #fcfaf5;
+    --text-color: #353535;
+    --text-secondary-color: #6b6762;
+    --primary-color: #c06c84;
+    --primary-hover: #a9566e;
+    --secondary-color: #e8bfd0;
+    --border-color: #f8f4ea;
+}
+
+
+.btn {
+    color: #c06c84;
+    border-color: #a9566e;
+    background: transparent;
+}
+
+.btn:hover {
+    background: #c06c84;
+    border-color: #a9566e;
+    color: white;
+}
+
+#hero .image img {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+a {
+    color: #c06c84;
+}
+
+a:hover {
+    color: #c06c84;
+}
+
+body.light,
+.light,
+.light > * {
+  background-color: var(--background-color) !important;
+}

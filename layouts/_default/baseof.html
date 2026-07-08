@@ -17,6 +17,11 @@
     <link rel="stylesheet" href="{{ $researchCSS.RelPermalink }}" integrity="{{ $researchCSS.Data.Integrity }}">
   {{ end }}
 
+  {{ with resources.Get "css/custom.css" }}
+    {{ $customCSS := . | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" integrity="{{ $customCSS.Data.Integrity }}">
+  {{ end }}
+
   <title>
     {{- block "title" . }} {{- end }}
   </title>
