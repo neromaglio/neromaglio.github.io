@@ -1,7 +1,7 @@
 ---
 enable: true
 intro: "Hi, my name is"
-title: "Davide Gadioli"
+title: "Davide"
 subtitle: "I optimize scientific applications for HPC."
 image: "images/me.jpg"
 button:
