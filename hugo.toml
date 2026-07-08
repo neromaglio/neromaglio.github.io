@@ -8,50 +8,50 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
 [params]
-  description = 'About me'
-  # staticPath: ""  # The path to serve the static files from
-  #favicon: "/fav.png"
-  useBootstrapCDN = false
-  mathjax = true
-  animate = true
+description = 'About me'
+# staticPath: ""  # The path to serve the static files from
+#favicon: "/fav.png"
+useBootstrapCDN = false
+mathjax = true
+animate = true
 
 [params.navbar]
-  brandName = "Davide Gadioli, PhD"
-  disableSearch = true
+brandName = "Davide Gadioli, PhD"
+disableSearch = true
 
 [params.navbar.stickyNavBar]
-  enable = true
-  showOnScrollUp = true
+enable = true
+showOnScrollUp = true
 
 [params.theme]
-  disableThemeToggle = true
+disableThemeToggle = true
 
 [[menu.main]]
-  identifier = "about"
-  name = "Bio"
-  url = "/#about"
-  weight = 10
+identifier = "about"
+name = "Bio"
+url = "/#about"
+weight = 10
 
 [[menu.main]]
-  identifier = "main-research"
-  name = "Research"
-  url = "/#main-research"
-  weight = 25
+identifier = "main-research"
+name = "Research"
+url = "/#main-research"
+weight = 25
 
 [[menu.main]]
-  identifier = "awards"
-  name = "Awards"
-  url = "/#awards"
-  weight = 30
+identifier = "awards"
+name = "Awards"
+url = "/#awards"
+weight = 30
 
 [[menu.main]]
-  identifier = "projects"
-  name = "Projects"
-  url = "/#projects"
-  weight = 40
+identifier = "projects"
+name = "Projects"
+url = "/#projects"
+weight = 40
 
 [[menu.main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "/#contact"
-  weight = 90
+identifier = "contact"
+name = "Contact"
+url = "/#contact"
+weight = 90
