@@ -1,0 +1,42 @@
+<section id="awards" class="py-0 py-sm-5">
+  <div class="container bg-transparent">
+    <h3 class="text-center bg-transparent">Awards</h3>
+
+    <div class="row justify-content-center px-3 px-md-5">
+      {{ range sort (where .Site.RegularPages "Section" "awards") ".Params.year" "desc" }}
+      {{ if .Params.showInHome | default true }}
+
+      <div class="col-lg-4 col-md-6 my-3">
+        <article class="award-card">
+
+          <div class="award-content">
+            <h5 class="award-title">{{ .Title }}</h5>
+
+            {{ if .Params.event }}
+            <div class="award-event">{{ .Params.event }}</div>
+            {{ end }}
+
+            {{ if .Params.year }}
+            <div class="award-year">{{ .Params.year }}</div>
+            {{ end }}
+
+            <div class="award-summary">
+              {{ .Content }}
+            </div>
+
+            {{ if .Params.eventUrl }}
+            <div class="award-link">
+              <a href="{{ .Params.eventUrl }}" target="_blank" rel="noopener">
+                Event
+              </a>
+            </div>
+            {{ end }}
+          </div>
+        </article>
+      </div>
+
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

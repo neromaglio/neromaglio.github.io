@@ -29,3 +29,9 @@ defaultContentLanguageInSubdir = false
   name = "Research"
   url = "/#main-research"
   weight = 25
+
+[[menu.main]]
+  identifier = "awards"
+  name = "Awards"
+  url = "/#awards"
+  weight = 30
