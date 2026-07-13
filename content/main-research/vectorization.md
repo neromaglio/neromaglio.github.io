@@ -17,7 +17,7 @@ featured:
   link: "https://doi.org/10.1109/CLUSTER59342.2025.11186493"
 links:
   - icon: fas fa-file-pdf
-    url: "https://re.public.polimi.it/retrieve/1ee17f6c-9609-421a-9956-cbef89a1388f/BigRun___IEEE%20%288%29.pdf"
+    url: "https://re.public.polimi.it/retrieve/00096c20-8c2c-45ca-8fcd-a00bc265b3a2/pp_cpu_CLUSTER%20%282%29.pdf"
 showInHome: true
 build:
   render: never
